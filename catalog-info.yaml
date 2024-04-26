@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ds.me
+  description: This is a dummy playbook proj
+  tags:
+    - ansible
+    - collection
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: KB-perByte/testPlay
+  links:
+    - url: https://devspaces.apps.ansible-rhdh.testing.ansible.com/#https://github.com/#https://github.com/KB-perByte/testPlay
+      title: Ansible Workspace link
+      icon: web
+spec:
+  type: playbook-project
+  system: system:default/artist-engagement-portal
+  lifecycle: production
+  owner: user:default/calum.leavy
